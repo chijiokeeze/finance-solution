@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Download Source Code') {
             steps {
-                git 'https://github.com/hbchosanna2/finance-solution.git'
+                git 'https://github.com/chijiokeeze/finance-solution.git'
             }
         }
         stage('Build') {
